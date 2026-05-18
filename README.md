@@ -11,7 +11,7 @@
 
 Este projeto tem como objetivo principal a construção do zero de uma API robusta seguindo os padrões modernos de desenvolvimento web. A arquitetura foi desenhada utilizando o modelo **MVC (Model-View-Controller)**, garantindo a separação clara de responsabilidades, alta manutenibilidade e escalabilidade do código.
 
-Para a comunicação com o banco de dados relacional (MySQL), utilizamos o **Prisma ORM**, que não só agiliza o desenvolvimento através de sua tipagem e sintaxe amigável, como previne ataques como SQL Injection.
+Para a comunicação com o banco de dados relacional (MySQL), Foi utilizado o **Prisma ORM**, que não só agiliza o desenvolvimento através de sua tipagem e sintaxe amigável, como previne ataques como SQL Injection.
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -78,4 +78,4 @@ npm run dev
 *O servidor iniciará na porta `8080`.*
 
 ---
-Feito com 💻 por Leon Hauck.
+Feito por Leon Hauck.
