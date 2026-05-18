@@ -1,0 +1,16 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Filme {
+  id              Int       @id @default(autoincrement())
+  nome            String
+  sinopse         String?   @db.Text
+  data_lancamento DateTime?
+  foto_capa       String?
+}
